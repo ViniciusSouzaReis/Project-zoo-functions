@@ -20,5 +20,5 @@ function countAnimals(animal) {
       .residents.filter((elemento) => elemento.sex === value[1]).length;
   }
 }
-console.log(countAnimals({ specie: 'penguins' }));
+
 module.exports = countAnimals;
